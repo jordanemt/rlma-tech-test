@@ -1,0 +1,173 @@
+[
+  {
+    "booking_id": 1,
+    "hotel_id": 101,
+    "event_id": 1,
+    "guest_name": "John Doe",
+    "guest_phone_number": "1234567890",
+    "check_in_date": "2025-09-01",
+    "check_out_date": "2025-09-05"
+  },
+  {
+    "booking_id": 2,
+    "hotel_id": 101,
+    "event_id": 1,
+    "guest_name": "Alice Smith",
+    "guest_phone_number": "2345678901",
+    "check_in_date": "2025-09-02",
+    "check_out_date": "2025-09-06"
+  },
+  {
+    "booking_id": 3,
+    "hotel_id": 101,
+    "event_id": 1,
+    "guest_name": "Bob Johnson",
+    "guest_phone_number": "3456789012",
+    "check_in_date": "2025-09-03",
+    "check_out_date": "2025-09-07"
+  },
+  {
+    "booking_id": 4,
+    "hotel_id": 101,
+    "event_id": 1,
+    "guest_name": "Sarah Lee",
+    "guest_phone_number": "4567890123",
+    "check_in_date": "2025-09-05",
+    "check_out_date": "2025-09-10"
+  },
+  {
+    "booking_id": 5,
+    "hotel_id": 101,
+    "event_id": 1,
+    "guest_name": "David Brown",
+    "guest_phone_number": "5678901234",
+    "check_in_date": "2025-09-06",
+    "check_out_date": "2025-09-11"
+  },
+  {
+    "booking_id": 6,
+    "hotel_id": 101,
+    "event_id": 1,
+    "guest_name": "Emily White",
+    "guest_phone_number": "6789012345",
+    "check_in_date": "2025-09-07",
+    "check_out_date": "2025-09-12"
+  },
+  {
+    "booking_id": 7,
+    "hotel_id": 101,
+    "event_id": 1,
+    "guest_name": "Michael Black",
+    "guest_phone_number": "7890123456",
+    "check_in_date": "2025-09-08",
+    "check_out_date": "2025-09-13"
+  },
+  {
+    "booking_id": 8,
+    "hotel_id": 101,
+    "event_id": 2,
+    "guest_name": "Lisa Green",
+    "guest_phone_number": "8901234567",
+    "check_in_date": "2025-09-15",
+    "check_out_date": "2025-09-20"
+  },
+  {
+    "booking_id": 9,
+    "hotel_id": 101,
+    "event_id": 2,
+    "guest_name": "Paul Gray",
+    "guest_phone_number": "9012345678",
+    "check_in_date": "2025-09-16",
+    "check_out_date": "2025-09-21"
+  },
+  {
+    "booking_id": 10,
+    "hotel_id": 101,
+    "event_id": 2,
+    "guest_name": "Tom Harris",
+    "guest_phone_number": "0123456789",
+    "check_in_date": "2025-09-25",
+    "check_out_date": "2025-09-30"
+  },
+  {
+    "booking_id": 11,
+    "hotel_id": 101,
+    "event_id": 2,
+    "guest_name": "Anna Clark",
+    "guest_phone_number": "1234567890",
+    "check_in_date": "2025-09-26",
+    "check_out_date": "2025-09-30"
+  },
+  {
+    "booking_id": 12,
+    "hotel_id": 101,
+    "event_id": 2,
+    "guest_name": "George King",
+    "guest_phone_number": "2345678901",
+    "check_in_date": "2025-10-01",
+    "check_out_date": "2025-10-05"
+  },
+  {
+    "booking_id": 13,
+    "hotel_id": 101,
+    "event_id": 2,
+    "guest_name": "Jessica Allen",
+    "guest_phone_number": "3456789012",
+    "check_in_date": "2025-10-02",
+    "check_out_date": "2025-10-06"
+  },
+  {
+    "booking_id": 14,
+    "hotel_id": 101,
+    "event_id": 2,
+    "guest_name": "Gilliam King",
+    "guest_phone_number": "3456789012",
+    "check_in_date": "2025-10-02",
+    "check_out_date": "2025-10-06"
+  },
+  {
+    "booking_id": 15,
+    "hotel_id": 101,
+    "event_id": 2,
+    "guest_name": "Natalia Fernandez",
+    "guest_phone_number": "(805) 440-2313",
+    "check_in_date": "2025-04-02",
+    "check_out_date": "2025-05-20"
+  },
+  {
+    "booking_id": 16,
+    "hotel_id": 101,
+    "event_id": 2,
+    "guest_name": "Campbell Raymond",
+    "guest_phone_number": "(910) 581-3774",
+    "check_in_date": "2025-04-15",
+    "check_out_date": "2025-05-13"
+  },
+  {
+    "booking_id": 17,
+    "hotel_id": 101,
+    "event_id": 2,
+    "guest_name": "Rhodes Charles",
+    "guest_phone_number": "(882) 559-2902",
+    "check_in_date": "2025-04-12",
+    "check_out_date": "2025-05-17"
+  },
+  {
+    "booking_id": 18,
+    "hotel_id": 101,
+    "event_id": 2,
+    "guest_name": "Mejia Ferguson",
+    "guest_phone_number": "(842) 592-3410",
+    "check_in_date": "2025-03-25",
+    "check_out_date": "2025-05-10"
+  },
+  {
+    "booking_id": 19,
+    "hotel_id": 101,
+    "event_id": 2,
+    "guest_name": "Dominique Ayers",
+    "guest_phone_number": "(805) 546-3313",
+    "check_in_date": "2025-04-03",
+    "check_out_date": "2025-05-11"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "rooming_list_id": 1,
+    "booking_id": 1
+  },
+  {
+    "rooming_list_id": 1,
+    "booking_id": 2
+  },
+  {
+    "rooming_list_id": 1,
+    "booking_id": 3
+  },
+  {
+    "rooming_list_id": 2,
+    "booking_id": 4
+  },
+  {
+    "rooming_list_id": 2,
+    "booking_id": 5
+  },
+  {
+    "rooming_list_id": 3,
+    "booking_id": 6
+  },
+  {
+    "rooming_list_id": 3,
+    "booking_id": 7
+  },
+  {
+    "rooming_list_id": 4,
+    "booking_id": 8
+  },
+  {
+    "rooming_list_id": 4,
+    "booking_id": 9
+  },
+  {
+    "rooming_list_id": 5,
+    "booking_id": 10
+  },
+  {
+    "rooming_list_id": 5,
+    "booking_id": 11
+  },
+  {
+    "rooming_list_id": 6,
+    "booking_id": 12
+  },
+  {
+    "rooming_list_id": 6,
+    "booking_id": 13
+  },
+  {
+    "rooming_list_id": 7,
+    "booking_id": 14
+  },
+  {
+    "rooming_list_id": 7,
+    "booking_id": 15
+  },
+  {
+    "rooming_list_id": 7,
+    "booking_id": 16
+  },
+  {
+    "rooming_list_id": 8,
+    "booking_id": 17
+  },
+  {
+    "rooming_list_id": 8,
+    "booking_id": 18
+  },
+  {
+    "rooming_list_id": 8,
+    "booking_id": 19
+  }
+]

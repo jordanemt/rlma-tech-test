@@ -1,0 +1,24 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: postgres_rlma
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_DB=rlma_db
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_USER=admin
+    volumes:
+      - ./db.sql:/mnt/db.sql
+      - ./init-db.sh:/mnt/init-db.sh
+    command: sh -c "./mnt/init-db.sh"
+  app:
+    build: .
+    container_name: rlma_app
+    ports:
+      - '3000:3000'
+      - '5173:5173'
+    environment:
+      - DATABASE_URL=postgres://admin:admin@db:5432/rlma_db
+    depends_on:
+      - db
