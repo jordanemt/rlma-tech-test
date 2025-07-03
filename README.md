@@ -7,7 +7,6 @@ A full-stack application for managing hotel rooming lists and bookings for event
 ## Features
 
 - **Rooming List Management:** Create, filter, and view rooming lists by event, status, and search.
-- **Booking Management:** Associate bookings with rooming lists and view booking details.
 - **Authentication:** Simple JWT-based login for API access.
 - **Modern UI:** Responsive React frontend styled with Tailwind CSS.
 - **API:** RESTful endpoints for rooming lists, bookings, and import operations.
@@ -18,10 +17,10 @@ A full-stack application for managing hotel rooming lists and bookings for event
 
 ## Technologies
 
-- **Backend:** Node.js, Express, PostgreSQL, pg, dotenv, jsonwebtoken
-- **Frontend:** React, Vite, Tailwind CSS, Axios, classnames, lucide-react
+- **Backend:** Node.js, Express, PostgreSQL.
+- **Frontend:** React, Vite, Tailwind CSS, Axios.
 - **Testing:** Jest, Supertest
-- **Dev Tools:** ESLint, Prettier, Docker, Docker Compose, concurrently
+- **Dev Tools:** ESLint, Prettier, Docker, Docker Compose.
 
 ---
 
@@ -68,7 +67,7 @@ API_BASE_URL=http://localhost:3000/api
 
 1. **Start the stack:**
    ```bash
-   docker-compose up --build
+   docker-compose up
    ```
    - The backend will be available at `http://localhost:3000`
    - The frontend will be available at `http://localhost:5173`
@@ -77,17 +76,18 @@ API_BASE_URL=http://localhost:3000/api
    - The `init-db.sh` script ensures Postgres is ready and loads `db.sql` schema.
 
 3. **Default Credentials:**
-   - No user/password required; login is mocked for demo.
+   - No user/password required; login is mocked for demo. ***Remove localstore if to fetch new JWT***.
 
 ---
 
 ### Local Development (without Docker)
 
-1. **Start Postgres locally** and create a database `rlma_db` with user `admin`/`admin`.
+1. **Start Postgres locally**.
 2. **Run migrations:**
    ```bash
-   psql -U admin -d rlma_db -f db.sql
+   psql -U {user} -d {database} -f db.sql
    ```
+   Make sure update .env file.
 3. **Install dependencies:**
    ```bash
    yarn install
@@ -127,7 +127,7 @@ API_BASE_URL=http://localhost:3000/api
 - `POST /api/login` – Get JWT token
 - `GET /api/rooming-lists/filter` – Filter rooming lists (search, status, sort)
 - `GET /api/rooming-lists/:id/bookings` – Get bookings for a rooming list
-- `POST /api/import` – Import demo data (requires JWT)
+- `POST /api/import` – Import demo data.
 
 ---
 
